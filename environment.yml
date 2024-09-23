@@ -1,0 +1,25 @@
+name: sd2022_c1_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - bzip2=1.0.8
+  - ca-certificates=2023.11.17
+  - libffi=3.4.2
+  - libsqlite=3.44.2
+  - libzlib=1.2.13
+  - ncurses=6.4
+  - openssl=3.2.0
+  - pip=23.3.1
+  - python=3.9.18
+  - readline=8.2
+  - setuptools=68.2.2
+  - tk=8.6.13
+  - tzdata=2023c
+  - wheel=0.42.0
+  - xz=5.2.6
+  - pip:
+      - pulp==2.7.0
+      - pytest==6.2.5
+      - memory_profiler==0.59.0
+      - psutil==5.8.0
